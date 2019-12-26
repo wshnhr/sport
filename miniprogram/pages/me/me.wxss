@@ -1,0 +1,8 @@
+/* miniprogram/pages/me/me.wxss */
+.zuche{
+  margin: 20rpx
+}
+
+.btn-ok{
+  margin: 20rpx
+}

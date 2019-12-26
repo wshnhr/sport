@@ -1,0 +1,6 @@
+<!--index.wxml-->
+输入用户名
+<input class="input" bindinput="getName"></input>
+输入密码
+<input class="input" bindinput="getMima"></input>
+<button bindtap="zhuce" type="primary">注册</button>

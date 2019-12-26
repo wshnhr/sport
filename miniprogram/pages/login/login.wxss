@@ -1,0 +1,4 @@
+.input{
+  border: 2rpx solid gainsboro;
+  margin: 4rpx;
+}

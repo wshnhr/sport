@@ -1,0 +1,15 @@
+<view wx:if="{{!loginOK}}">
+<button type="primary" class="zuche" bindtap="denglu">登录</button>
+<button type="primary" class="zuche" bindtap="zhuce">注册</button>
+</view>
+
+<view wx:else class="login-ok">
+<view>
+<text>用户：{{name}}，登录成功</text>
+</view>
+<view>
+<text>扫码状态：{{daka2==true ?(dakamessage+intervalTime+'秒'):dakamessage}}</text>
+</view>
+<button class="btn-ok" type="primary" bindtap="daka">点击扫码</button>
+<button class="btn-ok" type="primary" bindtap="tuichu">退出登录</button>
+</view>

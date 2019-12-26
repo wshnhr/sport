@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/me/me",
+    "pages/index/index",
+    "pages/login/login"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "易捷乐彩项目测试",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
